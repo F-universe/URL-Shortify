@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>URL Shortify</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="header">
+    <h2>🌐 URL Shortify</h2>
+    <button onclick="toggleTheme()">🌙/☀️</button>
+  </div>
+  <div class="shorten">
+    <input id="aliasInput" placeholder="Short alias (e.g. yt)">
+    <input id="urlInput" placeholder="Long URL (https://...)">
+    <button onclick="addLink()">Add</button>
+  </div>
+  <div id="links"></div>
+  <button onclick="clearAll()" style="margin-top:1em">Clear All</button>
+  <script src="main.js"></script>
+</body>
+</html>
